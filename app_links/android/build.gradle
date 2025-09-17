@@ -25,7 +25,8 @@ apply plugin: 'com.android.library'
 android {
     namespace 'com.llfbandit.app_links'
 
-    compileSdk = flutter.compileSdkVersion
+    compileSdkVersion 35
+    targetSdkVersion 35
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
